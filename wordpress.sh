@@ -2,7 +2,7 @@
 S_TIME=`date +%H:%M:%S`
 echo "Installing wordpress"
 sudo apt-get update
-echo "hello"
+echo "hello12"
 echo "---------- intsalling Nginx -------------------"
 sudo apt-get -y install nginx
 sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password igdefault'
